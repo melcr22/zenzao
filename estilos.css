@@ -1,0 +1,182 @@
+
+.header
+{
+      width: 100%;
+    height: 500px;
+    position: fixed;
+    background: url(imagenes/banner.jpg);
+    -webkit-background-size: cover ;
+    background-size: cover;
+    background-position: center center;
+}
+.header .navbar
+{
+    background-color: rgba(255, 255, 255, 0.459) !important;
+    
+}
+
+.logo
+{
+    position:relative;
+    width: 20vw;
+    height: 15vh;
+    justify-content: left;
+    align-items: left;
+    background-color: transparent;
+  
+}
+#imglogo
+{
+    height: auto;
+    width: auto;
+    max-height: 180px;
+    max-width: 180px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+nav li a
+{
+    margin: 20px;
+    font-family: garamond;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(7, 94, 97);
+}
+
+.content-area
+{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: rgb(248, 227, 209);
+    height: 400px;
+    
+} 
+.content-area3
+{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: rgb(248, 227, 209);
+    height: 800px;
+    
+} 
+#contentarea3
+{
+    font-family: garamond;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    margin-left: 290px;
+    text-align:justify;
+    width: 800px;
+    
+}
+#contentarea
+{
+    font-family: garamond;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    margin-left: 290px;
+    text-align: center;
+    width: 800px;
+}
+
+#content1
+{
+    width: 100%;
+    position: relative;
+    top: 130px;
+    height: 700px;
+    background: url(imagenes/ventana1.jpeg);
+   
+    background-size: cover;
+    background-position: center center;
+}
+
+#content2
+{
+    width: 100%;
+    position: relative;
+    top: 130px;
+    height: 700px;
+    background: url(imagenes/ventana2.jpeg);
+   
+    background-size: cover;
+    background-position: center center;
+ 
+}
+
+#txtcontent1
+{
+    margin-left: 650px;
+    text-align: justify;
+    width: 650px;
+    height: 600;
+   padding-top: 150px;
+    font-family: garamond;
+}
+  .h2title1
+{
+    font-family: garamond;
+    letter-spacing: 4px;
+    padding-top: 90px;
+    margin: 0;
+    text-align: center;
+}
+.h2title2
+{
+    font-family: garamond;
+    letter-spacing: 4px;
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+#loginbtn
+{
+    margin-left: 500px;
+    color: rgba(255, 235, 205, 0.829);
+}
+.nav-link
+{
+    color: rgba(255, 235, 205, 0.829);
+}
+
+.promoimg
+{
+    
+    min-width: 500px;
+    margin: 50px;
+    padding-bottom: 20px;
+    height: auto;
+    width: auto;
+    max-height: 180px;
+    max-width: 180px;
+    margin-left: 30px;
+    margin-top: 35px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.imgvip
+{
+   width: 400px;
+   height: 300px;
+}
+#txtcontent2
+{
+    margin-left: 650px;
+    text-align: justify;
+    width: 650px;
+    height: 500;
+   padding-top: 100px;
+    font-family: garamond;
+    float: left;
+  
+}
+
+#vipfotos 
+{
+    padding-left: 20px;
+    align-items: left;
+}

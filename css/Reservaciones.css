@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/*Diseño de reservaciones*/
+
+/*Diseño del background*/
+.backg{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(75, 66, 66, 0.322),rgba(75, 66, 66, 0.322)), url(../imagenes/img.rsv/Fondo.jpg);  
+    background-size: cover;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+/*Diseño del contenedor deel formulario y tabla*/
+.contenedor{
+    background-color: rgba(255, 235, 205, 0.527);
+    width: 95%;
+    height: 95%;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Diseño del fondo del formulario*/
+.box-reserv{
+    background-color: rgba(241, 151, 169, 0.5);
+    padding: 30px;
+    width: 50%;
+   height: 95%;
+   margin-right: 30px;
+   position: relative;
+}
+
+/*Diseño del título en el formulario*/
+.box-reserv h3{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+/*Diseño del botón*/
+.btn{
+    padding: 20px;
+}
+
+/*Códigos para el diseño de la tabla*/
+
+.container{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(202, 163, 240, 0.425);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+
+}

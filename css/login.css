@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.header
+{
+      width: 100%;
+    height: 500px;
+    position: fixed;
+    background: url(imagenes/banner.jpg);
+    -webkit-background-size: cover ;
+    background-size: cover;
+    background-position: center center;
+}
+.header .navbar
+{
+    background-color: rgba(255, 255, 255, 0.459) !important;
+}
+
+.logo
+{
+    position:relative;
+    width: 20vw;
+    height: 15vh;
+    justify-content: left;
+    align-items: left;
+    background-color: transparent;
+  
+}
+#imglogo
+{
+    height: auto;
+    width: auto;
+    max-height: 180px;
+    max-width: 180px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+nav li a
+{
+    margin: 20px;
+    font-family: garamond;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(7, 94, 97);
+}
+
+/*Estilo del login*/
+
+/*Estilo del fondo de la página*/
+.backg{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.322),rgba(0,0,0,0.322)), url(../imagenes/Img.Login/Fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Estilo de los fondos de ambos formularios*/
+.box-login, .box-registrer {
+    width: 350px;
+    height: 500px;
+    background-color: rgba(240, 128, 128, 0.404);
+    margin: 35px;
+  
+}
+
+/*Proporciones para el formulario*/
+.inner-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+}
+
+/*estilo de los formularios*/
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 55px;
+    box-sizing: border-box;
+}
+
+/*Diseño de los títulos*/
+.inner-box h2{
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(248, 205, 202);
+}
+
+/*Diseño de las cajas de texto*/
+.input-box{
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgb(243, 199, 221);
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;   
+    color: rgb(250, 235, 246); 
+}
+
+/*estilo de la letra interna o placeholder de las cajas de texto*/
+::placeholder{
+    color: cornsilk;
+}
+
+/*Estilo para el botón*/
+.inner-box .btn{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(243, 199, 221);
+}
+
+/*estilo del link*/
+.front a{
+    color: gainsboro;
+    text-decoration: none;
+    margin-left: 1.5cm;
+}
+
+
+
